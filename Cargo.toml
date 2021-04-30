@@ -1,0 +1,18 @@
+[package]
+name = "residua-uleb128"
+version = "0.1.0"
+authors = ["Sean C. Roach <me@seancroach.dev>"]
+edition = "2018"
+
+description = "Rust library for reading and writing unsigned integers in LEB128 encoding."
+repository = "https://github.com/residua/uleb128"
+license = "MIT"
+
+keywords = ["LEB128"]
+categories = ["encoding"]
+
+[lib]
+name = "uleb128"
+
+[dependencies]
+quick-error = "2.0.0"
