@@ -1,12 +1,10 @@
 use std::io::{Read, Write};
 
+use crate::{ULEB128_U32_MAX_LENGTH, ULEB128_U64_MAX_LENGTH};
 use crate::error::{Error, Result};
 
 const VALUE_MASK: u8 = 0b0111_1111;
 const VALUE_LENGTH: usize = 7;
-
-const ULEB128_U32_MAX_LENGTH: usize = 5;
-const ULEB128_U64_MAX_LENGTH: usize = 10;
 
 macro_rules! read_method_body {
     ($self:expr, $ty:ty, $len:expr) => {{
