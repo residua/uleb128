@@ -37,7 +37,7 @@
 //! [`Read`]: std::io::Read
 //! [`Write`]: std::io::Write
 
-#[warn(missing_docs)]
+#![warn(missing_docs)]
 
 #[macro_use]
 extern crate quick_error;
