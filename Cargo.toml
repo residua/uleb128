@@ -1,6 +1,6 @@
 [package]
 name = "residua-uleb128"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Sean C. Roach <me@seancroach.dev>"]
 edition = "2018"
 
